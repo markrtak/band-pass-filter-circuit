@@ -1,0 +1,114 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (File ".\newvalues.dsn"
+      (Type "Schematic Design")
+      (DisplayName ".\newvalues.DSN"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (NoModify)
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Outputs"
+    (File ".\newvalues-pspicefiles\schematic1\schematic1.net"
+      (Type "Report")
+      (DisplayName ".\newvalues-PSpiceFiles\SCHEMATIC1\SCHEMATIC1.net")))
+  (Folder "Referenced Projects")
+  (Folder "PSpice Resources"
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User))
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\newvalues-pspicefiles\schematic1\sim1.sim"
+        (DisplayName "SCHEMATIC1-sim1")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\newvalues-pspicefiles\schematic1\ac_sweep1.sim"
+        (DisplayName "SCHEMATIC1-ac_sweep1")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\newvalues-pspicefiles\schematic1\time_domain1.sim"
+        (DisplayName "SCHEMATIC1-time_domain1")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\newvalues-pspicefiles\schematic1\1.sim"
+        (DisplayName "SCHEMATIC1-1")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\newvalues-pspicefiles\schematic1\2.sim"
+        (DisplayName "SCHEMATIC1-2")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\newvalues-pspicefiles\schematic1\asdas.sim"
+        (DisplayName "SCHEMATIC1-asdas")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\newvalues-pspicefiles\schematic1\kj.sim"
+        (DisplayName "SCHEMATIC1-kj")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\newvalues-pspicefiles\schematic1\afd.sim"
+        (DisplayName "SCHEMATIC1-afd")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\newvalues-pspicefiles\schematic1\asd.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\newvalues-pspicefiles\schematic1\asd.sim"
+        (DisplayName "SCHEMATIC1-asd")
+        (Type "PSpice Profile"))))
+  (PartMRUSelector
+    (VAC
+      (FullPartName "VAC.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (VSIN
+      (FullPartName "VSIN.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0")))
+  (MPSSessionName "markr")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\Users\markr\OneDrive\Desktop\main\uni\uni\semester 4\circuits\newvalues.dsn")
+      (Path "Design Resources"
+         "C:\Users\markr\OneDrive\Desktop\main\uni\uni\semester 4\circuits\newvalues.dsn"
+         "SCHEMATIC1")
+      (Path "Outputs")
+      (Path "PSpice Resources")
+      (Path "PSpice Resources" "Simulation Profiles")
+      (Select "Design Resources"
+         "C:\Users\markr\OneDrive\Desktop\main\uni\uni\semester 4\circuits\newvalues.dsn"
+         "SCHEMATIC1" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 258"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 104 1178 104 401")
+        (Scroll "-62 0")
+        (Zoom "108")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\MARKR\ONEDRIVE\DESKTOP\MAIN\UNI\UNI\SEMESTER 4\CIRCUITS\NEWVALUES.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))
