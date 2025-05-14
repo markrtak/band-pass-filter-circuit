@@ -7,8 +7,8 @@ This repository contains the project report, simulation details, and hardware im
 
 ## Repository Contents
 - 📄 `sallen key report.pdf`: Full project report with design, simulations, and hardware results.
-- 📂 `Simulation Files` (if available): PSpice schematic and simulation profiles.
-- 📷 `Hardware Results`: Oscilloscope screenshots for input/output voltages at three frequencies.
+- 📂 `circuit simulations.opj`: OrCad Capture schematic for testing and running simulations.
+- 🖼️ `circuit schematic.png`: Schematic for the circuit.
 - 📝 `README.md`: This guide.
 
 ---
@@ -49,11 +49,11 @@ The Sallen Key band-pass filter is a cascaded active filter combining high-pass 
 ### Tools & Settings
 - **Software**: PSpice (OrCAD Capture).  
 - **AC Sweep Profile**:  
-  - Frequency Range: 100 Hz – 100 kHz (Logarithmic).  
+  - Frequency Range: 100 Hz – 500 kHz (Logarithmic).  
   - Input Signal: 1 V AC.  
 - **Time Domain Profile**:  
   - Input Signal: Vsin at \( f < f_0 \), \( f = f_0 \), \( f > f_0 \).  
-  - Run Time: 100 ms.  
+  - Run Time: 1 ms.  
 
 ### Expected Outcomes
 - **AC Sweep**: Gain vs. frequency plot showing band-pass behavior.  
@@ -66,7 +66,7 @@ The Sallen Key band-pass filter is a cascaded active filter combining high-pass 
 - Resistors: 3×1 kΩ, 2×100 kΩ.  
 - Capacitors: 2×10 nF, 3×22 pF.  
 - Op-Amps: 2×LM741.  
-- Breadboard, wires, and power supply (±12 V).  
+- Breadboard, wires.  
 
 ### Key Steps
 1. Cascaded high-pass (HPF) and low-pass (LPF) stages on a breadboard.  
@@ -78,7 +78,7 @@ The Sallen Key band-pass filter is a cascaded active filter combining high-pass 
 ### Simulation vs. Hardware
 | Parameter       | Calculated | Simulated | Hardware |
 |-----------------|------------|-----------|----------|
-| Center Frequency | 23.99 kHz  | 24 kHz    | ~24 kHz  |
+| Center Frequency | 23.99 kHz  | 24 kHz    | 24 kHz  |
 
 ### Oscilloscope Outputs
 - **\( f < f_0 \)** (11.9 kHz): Attenuated output.  
@@ -100,15 +100,7 @@ The Sallen Key band-pass filter is a cascaded active filter combining high-pass 
 
 ---
 
-## Contributors
-- **Mark Raymond Takla**  
-- Team members (if applicable): [Add names here]  
-
----
-
-## License
 This project is for academic purposes and does not require licensing.  
 
 --- 
 
-🛠 For questions or issues, please open a **GitHub Issue**.  
